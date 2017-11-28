@@ -46,7 +46,7 @@ router.route("/not-attending")
 	}
 });
 
-app.use(express.static(path.join(__dirname, "static"));
+app.use(express.static(path.join(__dirname, "static")));
 app.use("/", router);
 
 app.listen(port);
