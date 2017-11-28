@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Alex & Angeli</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+           <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <script src="assets/js/form.js"></script>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<!--<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>-->
+                        <p id="tagline">Alex and Angeli are getting married</p>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="#banner">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#rsvp">RSVP</a></li>
+							<li><a href="#accommodations">Accommodations</a></li>
+							<li><a href="#registry">Registry</a></li>
+                        </ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="/images/pic4.jpeg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Alex and Angeli are getting married...</h1>
+							</header>
+							<div class="content">
+								<p>February 17th, 2018</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- About -->
+							<section id="about">
+								<div class="inner">
+									<header class="major">
+										<h2>The Story of Alex and Angeli...</h2>
+									</header>
+									<h3>First Met</h3>
+                                    <p>
+                                        At a party at Western University in 2011
+                                    </p>
+									<h3>First Date</h3>
+                                    <p>
+                                        Tacos, margueritas and tequila shots at Under The Volcano in 2011
+                                    </p>
+									<h3>Things Were Great</h3>
+                                    <p>
+                                        We travelled, graduated (twice), climbed a few mountains and won a few tennis championships
+                                    </p>
+									<h3>Alex Made Angeli Wait</h3>
+                                    <p>
+                                        He finally asked and she said YES! in 2016
+                                    </p>
+								</div>
+							</section>
+
+						<!-- RSVP -->
+							<section id="rsvp">
+                                <div class="inner">
+                                    <header class="major">
+                                        <h2>RSVP</h2>
+                                    </header>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <h3>Attending</h3>
+                                            <form method="post" action="/attending" onsubmit="doFormSubmit(event, 'attending')">
+                                                <div class="field">
+                                                    <input type="text" name="name" placeholder="Guest Name" style="width:50%;" />
+                                                </div>
+                                                <div class="field">
+                                                    <select name="foodChoice" style="width:50%;" >
+                                                        <option value="null">Please Make A Food Choice</option>
+                                                        <option value="chicken">Chicken</option>
+                                                        <option value="steak">Steak</option>
+                                                        <option value="vegetarian">Vegetarian</option>
+                                                    </select>
+                                                </div>
+                                                <div class="field">
+                                                    <textarea name="dietaryRestrictions" placeholder="Please notify us of any dietary restrictions you may have" style="width:50%;" rows="2"></textarea>
+                                                </div>
+                                                <ul class="actions">
+                                                    <li><input type="submit" value="Submit" class="special" /></li>
+                                                </ul>
+                                            </form>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-0 col-xs-0">
+                                            <h3>Not Attending</h3>
+                                            <form method="post" action="/not-attending" onsubmit="doFormSubmit(event, 'not-attending')">
+                                                <div class="field">
+                                                    <input type="text" name="name" placeholder="Guest Name" style="width:50%;" />
+                                                </div>
+                                                <div class="field">
+                                                    <textarea name="message" style="width:50%;" placeholder="We're sad to hear you can't make it, but you can still send us your best wishes here!" rows="5"></textarea>
+
+                                                </div>
+                                                <ul class="actions">
+                                                    <li><input type="submit" value="Submit" class="special" /></li>
+                                                </ul>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+							</section>
+
+						<!-- Accommodations -->
+							<section id="accommodations">
+                                <div class="inner">
+                                    <header class="major">
+                                        <h2>Accomodations</h2>
+                                    </header>
+                                    <p>
+                                        A group rate at the Hyatt Regency Toronto has been arranged. Please book by <strong>January 20th, 2018</strong> You may book online by clicking below, or by phone by the reservation desk and using <strong>Little Humilde Wedding</strong> when prompted for the reservation code in order to secure the group rate.
+                                    </p>
+                                    <ul class="actions">
+                                        <li><a class="button" href="#">Online Booking</a></li>
+                                        <li><a class="button" href="#">Directions</a></li>
+                                    </ul>
+                                    <h4>Reservation Code: Little Humilde Wedding</h4>
+                                </div>
+							</section>
+
+                        <!-- Registry -->
+							<section id="registry">
+                                <div class="inner">
+                                    <header class="major">
+                                        <h2>Registry</h2>
+                                    </header>
+                                    <p>
+                                        We have lived together for a year or two, and we really don't needanything new.<br />
+                                        Your presence as a guest is all we request.<br />
+                                        But, if you wish to contribute in some other way, a contribution to our honeymoon would really make our day!
+                                    </p>
+                                </div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+					<!--<section id="contact">
+						<div class="inner">
+                            <header class="major">
+                                <h2>Contact</h2>
+                            </header>
+                            <p>
+                                For further information or to get in touch with us, please contact us at the following:<br />
+                            </p>
+                            <table>
+                                <tr><th></th><th>Alex</th><th>Angeli</th></tr>
+                                <tr><td>Phone</td><td>123-456-7890</td><td>098-765-4321</td></tr>
+                                <tr><td>Email</td><td>alex@email.com</td><td>angeli@email.com</td></tr>
+                            </table>
+                        </div>
+					</section>-->
+
+				<!-- Footer -->
+					<!--<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>-->
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
