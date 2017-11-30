@@ -3661,19 +3661,48 @@
 }
 
 #about{
-    background-color: #6fc3df;
+	//background-color: #6fc3df;
+		background: url("/images/pic8.jpg") no-repeat;
+		-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
+
 #rsvp{
-	background-color: #ec8d81;
+	//background-color: #ec8d81;
+	background: url("/images/pic5.jpg") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #registry{
-	background-color: #e7b788;
+	//background-color: #e7b788;
+	background: url("/images/pic7.jpg") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#accommodations{
+	background: url("/images/pic3.jpg") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #contact{
-    background-color: #8ea9e8;
+    //background-color: #8ea9e8;
+		background: url("/images/pic1.jpg") no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 }
 
 .form-control{
