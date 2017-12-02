@@ -3662,7 +3662,8 @@
 
 #about{
 	//background-color: #6fc3df;
-		background: url("/images/pic8.jpg") no-repeat;
+		//color: #2b3038 !important;
+		background: url("/images/story1.jpg") no-repeat;
 		-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -3672,7 +3673,7 @@
 
 #rsvp{
 	//background-color: #ec8d81;
-	background: url("/images/pic5.jpg") no-repeat;
+	background: url("/images/A&A3.jpg") no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -3681,7 +3682,7 @@
 
 #registry{
 	//background-color: #e7b788;
-	background: url("/images/pic7.jpg") no-repeat;
+	background: url("/images/A&A4.jpg") no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -3689,7 +3690,7 @@
 }
 
 #accommodations{
-	background: url("/images/pic3.jpg") no-repeat;
+	background: url("/images/acc.jpg") no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
