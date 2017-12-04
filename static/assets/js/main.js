@@ -367,7 +367,7 @@ function bgImgResize(event){
 		$("#registry").css("background-image",'url(../images/A&A4s.jpg)');
 	}else if(width<992){
 		//medium
-		$("#about").css("background-image",'url(../images/storym.jpeg)');
+		$("#about").css("background-image",'url(../images/storym.jpg)');
 		$("#rsvp").css("background-image",'url(../images/A&A3m.jpg)');
 		$("#accommodations").css("background-image",'url(../images/A&As1m.jpg)');
 		$("#registry").css("background-image",'url(../images/A&A4m.jpg)');
