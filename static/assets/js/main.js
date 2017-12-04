@@ -361,22 +361,22 @@ function bgImgResize(event){
 		// $("#registry").css("background-image",'url(../images/pic4.jpg)');
 	/*}else*/ if(width<768){
 		//small
-		$("#about").css("background-image","url('../images/pic4.jpg')");
-		$("#rsvp").css("background-image",'url(../images/pic4.jpg)');
-		$("#accommodations").css("background-image",'url(../images/pic4.jpg)');
-		$("#registry").css("background-image",'url(../images/pic4.jpg)');
+		$("#about").css("background-image","url('../images/storys.jpg')");
+		$("#rsvp").css("background-image",'url(../images/A&A3s.jpg)');
+		$("#accommodations").css("background-image",'url(../images/A&As1s.jpg)');
+		$("#registry").css("background-image",'url(../images/A&A4s.jpg)');
 	}else if(width<992){
 		//medium
-		$("#about").css("background-image",'url(../images/pic4.jpeg)');
-		$("#rsvp").css("background-image",'url(../images/story.jpg)');
-		$("#accommodations").css("background-image",'url(../images/pic4.jpg)');
-		$("#registry").css("background-image",'url(../images/pic4.jpg)');
+		$("#about").css("background-image",'url(../images/storym.jpeg)');
+		$("#rsvp").css("background-image",'url(../images/A&A3m.jpg)');
+		$("#accommodations").css("background-image",'url(../images/A&As1m.jpg)');
+		$("#registry").css("background-image",'url(../images/A&A4m.jpg)');
 	}else{
 		//large
 		$("#about").css("background-image","url('../images/story.jpg')");
-		$("#rsvp").css("background-image",'url(../images/pic4.jpeg)');
-		$("#accommodations").css("background-image",'url(../images/pic4.jpg)');
-		$("#registry").css("background-image",'url(../images/pic4.jpg)');
+		$("#rsvp").css("background-image",'url(../images/A&A3.jpg)');
+		$("#accommodations").css("background-image",'url(../images/A&As1.jpg)');
+		$("#registry").css("background-image",'url(../images/A&A4.jpg)');
 	}
 }
 
