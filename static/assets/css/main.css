@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background: #242943;
+		/*background: #242943;*/
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -3411,7 +3411,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		//background-image: url("../../images/banner.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3528,7 +3528,8 @@
 		}
 
 		#banner.style2:after {
-			background-color: #8d82c4;
+			/*weird purple filter*/
+			/*background-color: #8d82c4;*/
 		}
 
 		#banner.style3:after {
@@ -4019,7 +4020,7 @@
 			}
 
 	body.is-ie #menu {
-		background: rgba(42, 47, 74, 0.975);
+		//background: rgba(42, 47, 74, 0.975);
 	}
 
 	body.is-menu-visible #wrapper {

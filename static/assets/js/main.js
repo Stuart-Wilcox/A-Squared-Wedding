@@ -350,3 +350,35 @@
 	});
 
 })(jQuery);
+
+function bgImgResize(event){
+	let width = window.innerWidth;
+	//if(width<576){
+		//x-small
+		// $("#about").css("background-image",'url(../images/pic4.jpg)');
+		// $("#rsvp").css("background-image",'url(../images/pic4.jpg)');
+		// $("#accommodation").css("background-image",'url(../images/pic4.jpg)');
+		// $("#registry").css("background-image",'url(../images/pic4.jpg)');
+	/*}else*/ if(width<768){
+		//small
+		$("#about").css("background-image","url('../images/pic4.jpg')");
+		$("#rsvp").css("background-image",'url(../images/pic4.jpg)');
+		$("#accommodations").css("background-image",'url(../images/pic4.jpg)');
+		$("#registry").css("background-image",'url(../images/pic4.jpg)');
+	}else if(width<992){
+		//medium
+		$("#about").css("background-image",'url(../images/pic4.jpeg)');
+		$("#rsvp").css("background-image",'url(../images/story.jpg)');
+		$("#accommodations").css("background-image",'url(../images/pic4.jpg)');
+		$("#registry").css("background-image",'url(../images/pic4.jpg)');
+	}else{
+		//large
+		$("#about").css("background-image","url('../images/story.jpg')");
+		$("#rsvp").css("background-image",'url(../images/pic4.jpeg)');
+		$("#accommodations").css("background-image",'url(../images/pic4.jpg)');
+		$("#registry").css("background-image",'url(../images/pic4.jpg)');
+	}
+}
+
+$(window).load(bgImgResize);
+$(window).resize(bgImgResize);
